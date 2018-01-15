@@ -4,10 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "asciitable": "^0.0.7"
+    "asciitable": "^0.0.7",
+    "console": "^0.6.4",
+    "loglevel": "^1.6.1",
+    "mysql": "^2.15.0"
   },
   "scripts": {
     "tsc": "tsc",
-    "start": "node demo"
+    "start": "node demo.js"
   }
 }

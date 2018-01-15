@@ -1,5 +1,7 @@
 import  my = require("./my");
+import log = require('loglevel'); 
+import * as mysql  from "mysql";
 import {MyUser} from "./user";
 const  myUser =new MyUser("dalongdemo");
-console.log(myUser.printUserName())
-console.log(my.name);
+log.log(myUser.printUserName())
+log.log(my.name);
